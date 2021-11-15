@@ -221,3 +221,12 @@ form {
   outline-offset: -2px;
   -webkit-appearance: none;
 }
+
+.unit .active {
+  color: black;
+  cursor: default;
+}
+
+.unit .active:hover {
+  text-decoration: none;
+}
