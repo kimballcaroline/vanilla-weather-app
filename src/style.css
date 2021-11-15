@@ -1,3 +1,8 @@
+form {
+  display: block;
+  margin-top: 0em;
+}
+
 .App {
   max-width: 800px;
   margin: 60px auto;
@@ -13,17 +18,12 @@
 }
 
 .Weather {
-  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   padding: 40px;
   color: #878787;
-}
-
-form {
-  display: block;
-  margin-top: 0em;
 }
 
 .row {
@@ -92,11 +92,6 @@ form {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-[type="search"] {
-  outline-offset: -2px;
-  -webkit-appearance: none;
 }
 
 .Weather .btn {
@@ -171,7 +166,7 @@ form {
   margin-top: 30px;
 }
 
-justify-content-end {
+.justify-content-end {
   -webkit-justify-content: flex-end !important;
   justify-content: flex-end !important;
 }
@@ -215,4 +210,9 @@ justify-content-end {
   line-height: 18px;
   text-align: center;
   color: rgba(39, 33, 66, 0.4);
+}
+
+[type="search"] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
 }
