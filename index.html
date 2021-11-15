@@ -39,16 +39,23 @@
           <div class="WeatherInfo">
             <div class="row">
               <div class="col-6">
-                <h1>New York</h1>
+                <h1 id="city">New York</h1>
                 <ul>
                   <li>
-                    <span> Sunday 18:07, overcast clouds </span>
+                    <span>Sunday 18:07, </span>
+                    <span id="description"></span>
                   </li>
                   <li>
                     Humidity:
-                    <strong> 59%</strong>
+                    <strong>
+                      <span id="humidity"></span>
+                      %
+                    </strong>
                     , Wind:
-                    <strong> 0.45 km/h </strong>
+                    <strong>
+                      <span id="wind"></span>
+                      mph
+                    </strong>
                   </li>
                 </ul>
               </div>
@@ -56,7 +63,8 @@
                 <div class="temperature-container d-flex justify-content-end">
                   <div>
                     <span class="temperature">7</span>
-                    <span class="unit">°C</span>
+                    <span class="temperature" id="temperature">7</span>
+                    <span class="unit">°F</span>
                   </div>
                 </div>
               </div>
