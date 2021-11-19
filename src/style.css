@@ -34,38 +34,6 @@ form {
   margin-left: -15px;
 }
 
-.p-0 {
-  padding: 0 !important;
-}
-
-.col-3 {
-  -webkit-flex: 0 0 25%;
-  flex: 0 0 25%;
-  max-width: 25%;
-}
-
-.col-6 {
-  -webkit-flex: 0 0 50%;
-  flex: 0 0 50%;
-  max-width: 50%;
-}
-
-.col-9 {
-  -webkit-flex: 0 0 75%;
-  flex: 0 0 75%;
-  max-width: 75%;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.col {
-  -webkit-flex-basis: 0;
-  flex-basis: 0;
-  -webkit-flex-grow: 1;
-  flex-grow: 1;
-  max-width: 100%;
-}
-
 .Weather .search-input {
   background: #f9f7fe;
   border: none;
@@ -130,7 +98,7 @@ form {
   color: rgba(39, 33, 66, 0.4);
 }
 
-.WeatherForecast .forecast-temperature {
+.WeatherForecast .forecast-temperatures {
   font-style: normal;
   font-size: 18px;
   line-height: 1.5;
@@ -202,11 +170,6 @@ form {
   position: relative;
   line-height: 1;
   top: -34px;
-}
-
-.Weather .WeatherForecast canvas {
-  display: block;
-  margin: 20px auto;
 }
 
 .Weather footer {
