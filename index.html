@@ -41,33 +41,22 @@
             <div class="row">
               <div class="col-6">
                 <h1 id="city">Enter a city</h1>
-                <ul>
-                  <li id="date">Today</li>
-                  ,
-                  <li id="description"></li>
-                  <li>
+                <div class="weather-detail">
+                  <span id="date">Today</span>,
+                  <span id="description"></span>
+                  <div>
                     Humidity:
-                    <strong>
-                      <span id="humidity">0</span>
-                      %
-                    </strong>
-                    , Wind:
-                    <strong>
-                      <span id="wind">0</span>
-                      mph
-                    </strong>
-                  </li>
-                </ul>
+                    <strong> <span id="humidity">0</span>%</strong>, Wind:
+                    <strong> <span id="wind">0</span> mph </strong>
+                  </div>
+                </div>
               </div>
               <div class="col-6">
                 <div class="temperature-container d-flex justify-content-end">
                   <div>
                     <img src="" alt="" class="float-left" id="icon" />
                     <span class="temperature" id="temperature"></span>
-                    <span class="unit"
-                      ><a href="#" id="fahrenheit-link" class="active">°F</a> |
-                      <a href="#" id="celsius-link">°C</a></span
-                    >
+                    <span class="unit">°F</span>
                   </div>
                 </div>
               </div>
