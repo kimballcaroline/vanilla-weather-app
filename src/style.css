@@ -139,16 +139,6 @@ form {
   margin-top: 30px;
 }
 
-.justify-content-end {
-  -webkit-justify-content: flex-end !important;
-  justify-content: flex-end !important;
-}
-
-.d-flex {
-  display: -webkit-flex !important;
-  display: flex !important;
-}
-
 .Weather canvas {
   margin: 10px 0;
 }
